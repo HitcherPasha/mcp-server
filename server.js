@@ -1,3 +1,5 @@
+console.log("MCP works");
+
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import {
@@ -9,7 +11,7 @@ import fs from "fs/promises";
 import path from "path";
 
 // 🔴 ВАЖНО: укажи путь к своему проекту
-const PROJECT_ROOT = "/Users/pavelvasiliev/PhpstormProjects";
+const PROJECT_ROOT = "/Users/pavelvasiliev/PhpstormProjects/evolvity-client";
 
 const server = new Server(
     {
